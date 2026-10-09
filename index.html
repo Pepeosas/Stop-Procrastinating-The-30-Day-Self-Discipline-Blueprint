@@ -1,12 +1,13 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE html><html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>The Discipline Blueprint</title>
-  <meta name="description" content="A practical guide to building self-discipline, overcoming procrastination, and taking consistent action.">
-  <style>
-    * { box-sizing: border-box; }
+  <meta name="description" content="A practical guide to building self-discipline, overcoming procrastination, and taking consistent action.">  <style>
+    * {
+      box-sizing: border-box;
+    }
+
     body {
       margin: 0;
       font-family: Arial, Helvetica, sans-serif;
@@ -14,6 +15,7 @@
       background: #f5f7ff;
       line-height: 1.6;
     }
+
     .ad-slot {
       width: 100%;
       min-height: 90px;
@@ -27,16 +29,19 @@
       color: #7a8298;
       font-size: 12px;
     }
+
     .ad-slot.bottom {
       border-top: 1px solid #e4e8f3;
       border-bottom: 0;
       margin-top: 28px;
     }
+
     .container {
       max-width: 760px;
       margin: 0 auto;
       padding: 38px 20px;
     }
+
     .hero {
       text-align: center;
       background: linear-gradient(135deg, #18213a, #3b4fc4);
@@ -45,6 +50,7 @@
       padding: 38px 24px;
       box-shadow: 0 16px 40px rgba(33, 49, 117, .16);
     }
+
     .badge {
       display: inline-block;
       background: #ffdc82;
@@ -56,17 +62,20 @@
       letter-spacing: .04em;
       text-transform: uppercase;
     }
+
     h1 {
       font-size: clamp(30px, 6vw, 48px);
       line-height: 1.12;
       margin: 18px 0 14px;
     }
+
     .hero p {
       max-width: 560px;
       margin: 0 auto;
       color: #e9ecff;
       font-size: 17px;
     }
+
     .cover {
       width: 150px;
       margin: 26px auto 22px;
@@ -77,9 +86,24 @@
       box-shadow: 8px 10px 0 rgba(0,0,0,.15);
       transform: rotate(-3deg);
     }
-    .cover small { display: block; font-size: 10px; letter-spacing: .12em; }
-    .cover strong { display: block; font-size: 21px; line-height: 1.1; margin: 10px 0; }
-    .cover span { font-size: 10px; }
+
+    .cover small {
+      display: block;
+      font-size: 10px;
+      letter-spacing: .12em;
+    }
+
+    .cover strong {
+      display: block;
+      font-size: 21px;
+      line-height: 1.1;
+      margin: 10px 0;
+    }
+
+    .cover span {
+      font-size: 10px;
+    }
+
     .benefits {
       display: grid;
       grid-template-columns: repeat(3, 1fr);
@@ -87,6 +111,7 @@
       margin: 24px 0;
       text-align: left;
     }
+
     .benefit {
       background: white;
       border: 1px solid #e6e9f4;
@@ -94,7 +119,13 @@
       padding: 15px 13px;
       font-size: 14px;
     }
-    .benefit b { display: block; margin-bottom: 5px; color: #3346b5; }
+
+    .benefit b {
+      display: block;
+      margin-bottom: 5px;
+      color: #3346b5;
+    }
+
     .cta {
       display: inline-block;
       margin-top: 22px;
@@ -105,51 +136,101 @@
       font-weight: 800;
       text-decoration: none;
       box-shadow: 0 5px 0 #dba73f;
+      transition: transform 0.2s ease, background 0.2s ease;
     }
-    .note { margin-top: 14px !important; font-size: 12px !important; color: #dce1ff !important; }
-    footer { text-align: center; color: #8189a0; font-size: 12px; padding: 0 16px 22px; }
+
+    .cta:hover {
+      background: #ffdc82;
+      transform: translateY(-2px);
+    }
+
+    .note {
+      margin-top: 14px !important;
+      font-size: 12px !important;
+      color: #dce1ff !important;
+    }
+
+    footer {
+      text-align: center;
+      color: #8189a0;
+      font-size: 12px;
+      padding: 0 16px 22px;
+    }
+
     @media (max-width: 560px) {
-      .container { padding: 22px 14px; }
-      .hero { padding: 30px 18px; }
-      .benefits { grid-template-columns: 1fr; }
-      .ad-slot { min-height: 90px; }
+      .container {
+        padding: 22px 14px;
+      }
+
+      .hero {
+        padding: 30px 18px;
+      }
+
+      .benefits {
+        grid-template-columns: 1fr;
+      }
+
+      .ad-slot {
+        min-height: 90px;
+      }
     }
-  </style>
-</head>
-<body>
-  <!-- MONETAG BANNER: Replace this placeholder with your Monetag banner ad code. -->
-  <div class="ad-slot" aria-label="Monetag banner ad">
+  </style></head><body>  <!-- MONETAG BANNER AD -->  <div class="ad-slot" aria-label="Monetag banner ad">
     <span>Monetag banner ad — paste your Monetag ad code here</span>
+  </div>  <main class="container">
+    <section class="hero">  <span class="badge">Your 30-Day Reset Starts Here</span>
+
+  <div class="cover" aria-label="The Discipline Blueprint ebook cover">
+    <small>THE PRACTICAL GUIDE</small>
+    <strong>THE<br>DISCIPLINE<br>BLUEPRINT</strong>
+    <span>Stop delaying. Start moving.</span>
   </div>
 
-  <main class="container">
-    <section class="hero">
-      <span class="badge">Your 30-Day Reset Starts Here</span>
-      <div class="cover" aria-label="The Discipline Blueprint ebook cover">
-        <small>THE PRACTICAL GUIDE</small>
-        <strong>THE<br>DISCIPLINE<br>BLUEPRINT</strong>
-        <span>Stop delaying. Start moving.</span>
-      </div>
-      <h1>Stop Procrastinating.<br>Start Taking Control.</h1>
-      <p>Build better habits, stay consistent, and finally make progress on the goals that matter—with a practical guide you can start using today.</p>
+  <h1>Stop Procrastinating.<br>Start Taking Control.</h1>
 
-      <div class="benefits">
-        <div class="benefit"><b>✓ Beat procrastination</b>Learn simple ways to get started when you feel stuck.</div>
-        <div class="benefit"><b>✓ Build consistency</b>Create routines that work even when motivation fades.</div>
-        <div class="benefit"><b>✓ Follow a 30-day plan</b>Turn small daily actions into lasting progress.</div>
-      </div>
+  <p>
+    Build better habits, stay consistent, and finally make progress
+    on the goals that matter—with a practical guide you can start
+    using today.
+  </p>
 
-      <!-- Replace #YOUR-GUIDE-LINK with your real download or checkout link. -->
-      <a class="cta" href="#YOUR-GUIDE-LINK">Get The Discipline Blueprint →</a>
-      <p class="note">Practical steps. Simple exercises. Progress one day at a time.</p>
-    </section>
-  </main>
+  <div class="benefits">
 
-  <!-- ADSTERRA BANNER: Replace this placeholder with your Adsterra banner ad code. -->
-  <div class="ad-slot bottom" aria-label="Adsterra banner ad">
+    <div class="benefit">
+      <b>✓ Beat procrastination</b>
+      Learn simple ways to get started when you feel stuck.
+    </div>
+
+    <div class="benefit">
+      <b>✓ Build consistency</b>
+      Create routines that work even when motivation fades.
+    </div>
+
+    <div class="benefit">
+      <b>✓ Follow a 30-day plan</b>
+      Turn small daily actions into lasting progress.
+    </div>
+
+  </div>
+
+  <!-- BUTTON CONNECTED TO YOUR EBOOK WEBSITE -->
+  <a
+    class="cta"
+    href="https://pepeosas.github.io/Stop-Procrastinating-The-30-Day-Self-Discipline-Blueprint/"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    Get The Discipline Blueprint →
+  </a>
+
+  <p class="note">
+    Practical steps. Simple exercises. Progress one day at a time.
+  </p>
+
+</section>
+
+  </main>  <!-- ADSTERRA BANNER AD -->  <div class="ad-slot bottom" aria-label="Adsterra banner ad">
     <span>Adsterra banner ad — paste your Adsterra ad code here</span>
-  </div>
-
-  <footer>© 2026 The Discipline Blueprint</footer>
-</body>
+  </div>  <footer>
+    © 2026 The Discipline Blueprint
+  </footer></body>
 </html>
